@@ -1,0 +1,61 @@
+.blog-container {
+  background-color: rgb(219, 221, 221);
+}
+.blog-header {
+  height: 500px;
+  background-image: url("../../images//play.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blogs {
+  margin: auto;
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.left-blog {
+  border: apx solid green;
+}
+.blog {
+  margin: auto;
+  width: 85%;
+  text-align: left;
+  border: 1px solid gainsboro;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+.blog-icon {
+  display: flex;
+  color: gray;
+  margin-bottom: 15px;
+}
+.icon {
+  margin-top: 8px;
+}
+.blog-icon p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.blog h4 {
+  margin-bottom: 15px;
+}
+.right-blog {
+  width: 80%;
+}
+.right-text {
+  text-align: left;
+}
+.blog button {
+  border: none;
+  padding: 10px 20px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+.left-img {
+  width: 100%;
+  margin-bottom: 10px;
+}

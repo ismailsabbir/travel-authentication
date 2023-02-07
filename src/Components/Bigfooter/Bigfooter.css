@@ -1,0 +1,29 @@
+.big-footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color: rgb(7, 44, 46);
+}
+.footer1 {
+  width: 300px;
+  color: white;
+  text-align: left;
+}
+.foot-icon {
+  margin: 15px;
+}
+.paragrap {
+  margin-top: 40px;
+}
+@media only screen and (max-width: 768px) {
+  .big-footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer1 {
+    margin-top: 15px;
+  }
+}

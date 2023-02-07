@@ -1,0 +1,48 @@
+.experience-container {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-experience {
+  margin: 20px;
+  width: 500px;
+  text-align: left;
+}
+.right-experience {
+  margin: 20px;
+  width: 500px;
+  height: 450px;
+  border-radius: 8px;
+}
+.left-experience button {
+  padding: 15px 25px;
+  border: none;
+}
+.right-experience img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+@media only screen and (max-width: 768px) {
+  .experience-container {
+    width: 90%;
+    /* border: 1px solid brown; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .left-experience {
+    width: 100%;
+    /* border: 1px solid gray; */
+  }
+  .right-experience {
+    width: 100%;
+    height: 300px;
+  }
+  .right-experience img {
+    height: 300px;
+  }
+}

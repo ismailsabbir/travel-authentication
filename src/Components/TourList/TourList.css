@@ -1,0 +1,29 @@
+.list-header {
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../images/bazar.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tourlist-text {
+  margin-top: 100px;
+  color: white;
+}
+.tourlists {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+.card {
+  margin-bottom: 30px;
+}
+#list-title {
+  text-align: left;
+  color: rgb(112, 111, 111);
+  margin-bottom: 15px;
+}
+#package-mid {
+  padding-top: 15px;
+  border-top: 1px solid gainsboro;
+}

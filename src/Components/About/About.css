@@ -1,0 +1,82 @@
+.about-container {
+  height: 450px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../images/about.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.golof-container {
+  height: 400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+.golof {
+  border: 1px solid palegoldenrod;
+  padding: 20px;
+  margin: 20px;
+}
+.golof img {
+  height: 50px;
+}
+.golof button {
+  margin-top: 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: bisque;
+  font-weight: 500;
+  padding: 15px 25px;
+}
+.about-golf-container {
+  width: 80%;
+  margin: auto;
+  height: 400px;
+  margin-top: 30px;
+}
+.about-text {
+  margin: auto;
+  width: 60%;
+  margin-bottom: 25px;
+}
+.about-golof-package {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-golf {
+  margin: 20px;
+  text-align: left;
+  padding: 20px;
+}
+.about-img {
+  display: flex;
+}
+.about-img img {
+  height: 40px;
+  margin-right: 20px;
+  width: 40px;
+}
+@media only screen and (max-width: 768px) {
+  .golof-container {
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid brown; */
+  }
+  .about-golf-container {
+    margin-bottom: 800px;
+  }
+  .about-golof-package {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid green; */
+  }
+}

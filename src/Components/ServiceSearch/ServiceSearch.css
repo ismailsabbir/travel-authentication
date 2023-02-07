@@ -1,0 +1,59 @@
+.activitysearch-container {
+  margin: auto;
+  width: 50%;
+  height: 450px;
+  /* border: 1px solid gainsboro; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* margin-top: 80px; */
+  /* margin-bottom: 80px; */
+}
+.activity-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.activity {
+  margin: 20px;
+}
+.activity form {
+  /* height: 80px; */
+  border: 1px solid gainsboro;
+}
+.activity select {
+  height: 60px;
+  width: 120px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.activity-btn {
+  border: none;
+  padding: 10px 20px;
+}
+@media only screen and (max-width: 768px) {
+  .activitysearch-container {
+    height: auto;
+    padding-bottom: 20px;
+    width: 90%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    /* border: 1px solid gray; */
+  }
+  .activity-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .activity {
+    width: 100%;
+  }
+  .activity form {
+    width: 100%;
+  }
+  #activity {
+    width: 300px;
+  }
+}

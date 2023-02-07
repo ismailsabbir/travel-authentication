@@ -1,0 +1,47 @@
+.hole-tour {
+  margin-top: 30px;
+}
+.toues-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.tours1 {
+  border: 1px solid gainsboro;
+  width: 350px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  padding-bottom: 15px;
+}
+.tours1 img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+#mid-tour {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("../../images/travel1.avif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.lern-tour-btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: antiquewhite;
+  font-weight: 500;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 768px) {
+  .toues-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
